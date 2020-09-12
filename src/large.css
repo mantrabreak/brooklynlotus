@@ -1,0 +1,36 @@
+@media(min-width: 1150px) {
+
+  .lotus {
+    width: auto;
+    max-width: 100%;
+    height: 81vh;
+  }
+
+  .footer {
+    width: auto;
+    max-width: 100%;
+    height: 19vh;
+  }
+
+  .logo {
+    width: auto;
+    max-height: 15vh;
+    text-align: center;
+    position: relative;
+  }
+
+  .icons {
+    width: auto;
+    max-height: 15vh;
+    text-align: center;
+    position: relative;
+    padding-top: 2vh;
+  }
+
+  .iconimage {
+    max-width:8vw;
+    max-height:9vh;
+  }
+
+
+}
