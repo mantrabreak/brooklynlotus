@@ -1,9 +1,9 @@
 import React from 'react';
-import mediumIG from './medium/instagram.png'
-import mediumFB from './medium/facebook.png'
-import mediumMU from './medium/meetup.png'
-import mediumYT from './medium/youtube.png'
-import mediumWA from './medium/whatsapp.png'
+import mediumIG from './shared/instagram.png'
+import mediumFB from './shared/facebook.png'
+import mediumMU from './shared/meetup.png'
+import mediumYT from './shared/youtube.png'
+import mediumWA from './shared/whatsapp.png'
 
 class MediumIconRow extends React.Component {
 

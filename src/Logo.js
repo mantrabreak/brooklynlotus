@@ -1,6 +1,6 @@
 import React from 'react';
 import largeLogo from './large/logo.png'
-// import medLogo from './med/logo.png'
+// import medLogo from './medium/logo.png'
 // import smallLogo from './small/logo.png'
 import Media from 'react-media';
 
@@ -15,7 +15,7 @@ class Logo extends React.Component {
       }}>
         {matches => (
           <div>
-            {/* {matches.large && <img className="logo" src={largeLogo} alt="Lotus Room"></img>} */}
+            {matches.large && <img className="logo" src={largeLogo} alt="Lotus Room"></img>}
             {/* {matches.medium && <img className="logo" src={medLogo} alt="Lotus Room"></img>}
             {matches.small && <img className="logo" src={smallLogo} alt="Lotus Room"></img>} */}
           </div>

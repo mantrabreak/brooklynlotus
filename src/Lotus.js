@@ -1,7 +1,7 @@
 import React from 'react';
 import largeLotus from './large/background.png'
-import medLotus from './medium/background.png'
-import smallLotus from './small/background.png'
+import medLotus from './medium/background_text.png'
+import smallLotus from './small/background_text.png'
 import Media from 'react-media';
 
 class Lotus extends React.Component {

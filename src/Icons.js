@@ -1,7 +1,5 @@
 import React from 'react';
-import LargeIconRow from './LargeIconRow.js';
-// import MediumIconRow from './MediumIconRow.js';
-// import SmallIconRow from './SmallIconRow.js';
+import IconRow from './IconRow.js';
 import Media from 'react-media';
 
 
@@ -15,10 +13,10 @@ class Icons extends React.Component {
         large: "(min-width: 1150px)"
       }}>
         {matches => (
-          <div>
-            {/* {matches.large && <LargeIconRow className="icons"/>} */}
-            {/* {matches.medium && <MediumIconRow className="icons" />}
-            {matches.small && <SmallIconRow className="icons" />} */}
+          <div className="icons">
+            {matches.large && <IconRow/>}
+            {matches.medium && <IconRow/>}
+            {matches.small && <IconRow/>}
           </div>
         )}
       </Media>

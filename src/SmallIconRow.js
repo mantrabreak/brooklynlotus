@@ -1,9 +1,9 @@
 import React from 'react';
-import smallIG from './small/instagram.png'
-import smallFB from './small/facebook.png'
-import smallMU from './small/meetup.png'
-import smallYT from './small/youtube.png'
-import smallWA from './small/whatsapp.png'
+import smallIG from './shared/instagram.png'
+import smallFB from './shared/facebook.png'
+import smallMU from './shared/meetup.png'
+import smallYT from './shared/youtube.png'
+import smallWA from './shared/whatsapp.png'
 
 class SmallIconRow extends React.Component {
 
