@@ -24,11 +24,15 @@
   }
 
   .icons {
-    width: auto;
+    right: 0px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     max-height: 15vh;
-    text-align: center;
-    position: relative;
-    padding-top: 2vh;
+    max-width: 100%;
+    width: auto;
   }
 
   .iconimage {
