@@ -16,7 +16,7 @@ class Icons extends React.Component {
       }}>
         {matches => (
           <div>
-            {matches.large && <LargeIconRow className="icons"/>}
+            {/* {matches.large && <LargeIconRow className="icons"/>} */}
             {/* {matches.medium && <MediumIconRow className="icons" />}
             {matches.small && <SmallIconRow className="icons" />} */}
           </div>
