@@ -1,7 +1,7 @@
 import React from 'react';
-import largeLogo from './large/logo.png'
-import medLogo from './medium/logo.png'
-import smallLogo from './small/logo.png'
+import largeLogo from './large/logo-large.png'
+import medLogo from './medium/logo-medium.png'
+import smallLogo from './small/logo-small.png'
 import Media from 'react-media';
 
 class Logo extends React.Component {
