@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 import './large.css';
 import './medium.css';
-// import './small.css';
+import './small.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Lotus from './Lotus.js'
@@ -54,6 +54,25 @@ function App() {
                 </Col>
                 <Col md={6} lg={6} className="icons">
                   <Icons />
+                </Col>
+              </Row>
+            </Container>
+          }
+          {
+            matches.small &&
+            // Small
+            <Container fluid className="full">
+              <Row className="lotus-row">
+                <Lotus />
+              </Row>
+              <Row className="footer-icons">
+                <Col sm={12} xs={12} className="icons">
+                  <Icons />
+                </Col>
+              </Row>
+              <Row className="footer-logo">
+                <Col sm={12} xs={12} className="logo">
+                  <Logo />
                 </Col>
               </Row>
             </Container>
